@@ -6,7 +6,7 @@ import os
 from datetime import datetime
 
 class TelloAutoCapture:
-    def __init__(self, save_dir='dataset', total_photos=100, interval=1, cooldown_every=20, cooldown_time=3):
+    def __init__(self, save_dir='dataset', total_photos=60, interval=1, cooldown_every=20, cooldown_time=3):
         self.tello = Tello()
         self.save_dir = save_dir
         self.total_photos = total_photos
@@ -181,7 +181,7 @@ if __name__ == '__main__':
     
     camera = TelloAutoCapture(
         save_dir=dataset_name,
-        total_photos=100,
+        total_photos=60,
         interval=1,
         cooldown_every=20,
         cooldown_time=3

@@ -4,10 +4,38 @@ tello_env/
 # Carpetas no deseadas
 RoboMaster-SDK/
 
+# Carpetas de capturas/videos
+aereo1/
+aero2/
+aero3/
+refinery/
+
+# Datasets
+Datasets/
+dataset*/
+train/
+valid/
+test/
+
+# Resultados de entrenamiento
+tello_segmentation/
+tello_detection/
+runs/
+detections/
+
+# Archivos de imagen/video
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+*.mov
+
 # Python
 __pycache__/
 *.pyc
+*.pyo
 
-# Datasets (opcional)
-datasets/
-datasetDron/
+# EXCEPCIONES - SÍ queremos estos
+!best.pt
+EOF
