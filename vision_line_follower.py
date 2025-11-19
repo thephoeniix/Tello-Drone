@@ -13,13 +13,6 @@ import time
 
 class LineFollowerYOLO:
     def __init__(self, model_path='best.pt', target_class='Pipes'):
-        """
-        Inicializar Line Follower con control PD
-        
-        Args:
-            model_path: Ruta al modelo YOLO entrenado
-            target_class: Nombre de la clase a seguir (ej: 'Pipes', 'line', etc.)
-        """
         self.tello = Tello()
         self.model = None
         self.model_path = model_path
@@ -339,7 +332,7 @@ class LineFollowerYOLO:
                 
                 print('🚀 Avanzando para posicionar...')
                 self.tello.send_rc_control(0, 15, 0, 0)
-                time.sleep(2)
+                time.sleep(3)
                 self.tello.send_rc_control(0, 0, 0, 0)
                 
                 # Resetear errores después de despegue
