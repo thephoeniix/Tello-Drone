@@ -13,9 +13,6 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![YOLO](https://img.shields.io/badge/YOLOv8-Segmentation-orange)
 ![DJITelloPy](https://img.shields.io/badge/DJI-Tello_API-0A85FF?logo=dji)
-![Status](https://img.shields.io/badge/Status-Active-success)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 </div>
 
 ---
