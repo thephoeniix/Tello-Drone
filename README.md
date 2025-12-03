@@ -1,5 +1,4 @@
 
-
 # 📘 **README.md (English, with badges + GIFs + run instructions)**
 
 ---
@@ -13,6 +12,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![YOLO](https://img.shields.io/badge/YOLOv8-Segmentation-orange)
 ![DJITelloPy](https://img.shields.io/badge/DJI-Tello_API-0A85FF?logo=dji)
+
 </div>
 
 ---
@@ -23,8 +23,11 @@
 
 ### **Drone 1 – Perimeter Scan + Fire Detection**
 
+*(replace `drone1.gif` with your real GIF)* <img src="assets/drone1.gif" width="600"/>
+
 ### **Drone 2 – Targeted Inspection + PD Control**
 
+<img src="assets/drone2.gif" width="600"/>
 
 </div>
 
@@ -265,4 +268,5 @@ A detailed academic description is included as:
 * Bruno Bermúdez Rosas — Integration & Testing
 * Francisco García Uicab — Documentation & Models
 
+---
 
